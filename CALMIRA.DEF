@@ -1,0 +1,14 @@
+; ------------------------------------------------------------------
+; CALMIRA.DEF - Module definition for CALMIRA.EXE
+; Target: MSVC 1.52c / Windows 3.1 16-bit EXE
+; ------------------------------------------------------------------
+
+NAME            CALMIRA
+DESCRIPTION     'Calmira - Windows 3.1 Shell Replacement'
+EXETYPE         WINDOWS
+STUB            'WINSTUB.EXE'
+
+CODE            PRELOAD MOVEABLE DISCARDABLE
+DATA            PRELOAD MOVEABLE MULTIPLE
+HEAPSIZE        4096
+STACKSIZE       16384
