@@ -27,6 +27,7 @@
  ***************************************************************************/
 
 #include <windows.h>
+#include <dde.h>
 #include <string.h>
 #include "..\CALMSGS.H"
 #include "RESOURCE.H"

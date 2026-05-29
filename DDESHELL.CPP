@@ -24,6 +24,7 @@
  ***************************************************************************/
 
 #include <windows.h>
+#include <dde.h>
 #include <string.h>
 #include "DDESHELL.H"
 #include "SETTINGS.H"
